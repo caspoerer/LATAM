@@ -26,3 +26,17 @@ El problema consiste en predecir la probabilidad de atraso de los vuelos que ate
 - **OPERA :** Nombre de aerolínea que opera.
 - **SIGLAORI :** Nombre ciudad origen.
 - **SIGLADES :** Nombre ciudad destino.
+
+## 1. ¿Cómo se distribuyen los datos? ¿Qué te llama la atención o cuál es tu conclusión sobre esto?
+
+## 2. Genera las columnas adicionales y luego expórtelas en un archivo synthetic_features.csv :  
+- **temporada_alta :** 1 si Fecha-I está entre 15-Dic y 3-Mar, o 15-Jul y 31-Jul, o 11-Sep y 30-Sep, 0 si no.  
+- **dif_min :** diferencia en minutos entre Fecha-O y Fecha-I  
+- **atraso_15 :** 1 si dif_min > 15, 0 si no.  
+- **periodo_dia :** mañana (entre 5:00 y 11:59), tarde (entre 12:00 y 18:59) y noche (entre 19:00 y 4:59), en base a Fecha-I .  
+
+## 3. ¿Cómo se compone la tasa de atraso por destino, aerolínea, mes del año, día de la semana, temporada, tipo de vuelo? ¿Qué variables esperarías que más influyeran en predecir atrasos?  
+
+## 4. Entrena uno o varios modelos (usando el/los algoritmo(s) que prefieras) para estimar la probabilidad de atraso de un vuelo. Siéntete libre de generar variables adicionales y/o complementar con variables externas.  
+
+## 5. Evalúa tu modelo. ¿Qué performance tiene? ¿Qué métricas usaste para evaluar esa performance y por qué? ¿Por qué elegiste ese algoritmo en particular?
