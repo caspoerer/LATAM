@@ -1,5 +1,5 @@
-# LATAM. 
+# DESAFÍO LATAM
 
-![](https://github.com/caspoerer/LATAM-Carlos-Spoerer#:~:text=logo%2Dlatam%2Dairlines.png)
+![](logo-latam-airlines.png)
 
-Desafío LATAM Data Scientist
+
